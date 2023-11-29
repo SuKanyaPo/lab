@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Navigation Example</title>
+</head>
+<body>
+
+<h1>หน้าแรก</h1>
+
+<button onclick="goToNewPage()">สูตรที่ 1</button>
+
+<script>
+function goToNewPage() {
+  // เปลี่ยนหน้าไปยัง URL ของหน้าใหม่ที่ต้องการ
+  window.location.href = "math.html"; // แก้ไขเป็น URL ของหน้าใหม่ที่ต้องการ
+}
+</script>
+<button onclick="goToNewPage2()">สูตรที่ 2</button>
+
+<script>
+function goToNewPage2() {
+  // เปลี่ยนหน้าไปยัง URL ของหน้าใหม่ที่ต้องการ
+  window.location.href = "math2.html"; // แก้ไขเป็น URL ของหน้าใหม่ที่ต้องการ
+}
+</script>
+
+</body>
+
+</html>
+
